@@ -1,0 +1,6 @@
+digraph {
+    OFF -> ON[label="press_switch"];
+    ON -> OFF[label="press_switch"];
+    ON -> ERROR[label="got_error"];
+    ERROR -> OFF[label="press_switch"];
+}
