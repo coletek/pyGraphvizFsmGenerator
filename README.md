@@ -18,5 +18,5 @@ implement what the state does. And your own test hardness
 TestMyStateMachine.py
 
 The benefit of this tool is so you can keep the state implementation
-static, but the transisision logic is dynamically created in the
+static, but the transition logic is dynamically created in the
 generated code based on the .dot file.
