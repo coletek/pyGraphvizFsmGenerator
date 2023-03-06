@@ -24,7 +24,7 @@ def process_transition(matchobj):
     start_state = splits[0]
     end_state = splits[1]
 
-    searchObj = re.search(r'(\w+)( )*\[label="(.*)"\]', line, re.M|re.I)
+    searchObj = re.search(r'(\w+)\[label="(.*)"\]', line, re.M|re.I)
     end_state = searchObj.group(1)
     label = searchObj.group(2)
 
