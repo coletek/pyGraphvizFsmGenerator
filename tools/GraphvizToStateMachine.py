@@ -72,7 +72,7 @@ for start_state in state_machine:
         print ("        %s event == '%s':\n"
                "            return %s()" % (start, t[1], t[0]))
         c += 1
-    print "        return self"
+    print ("        return self")
 
 print ("")
 print ('class %s(object):\n'
